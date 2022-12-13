@@ -1,0 +1,25 @@
+package mainimport "fmt"func main() {
+    var numTests int
+    fmt.Scan(&numTests)
+    
+    for i := 0; i < numTests; i++ {
+        var n int
+        var m int
+        var totalCandies int
+        
+        fmt.Scan(&n)
+        fmt.Scan(&m)
+        
+        for i:= 0; i < n; i++ {
+            var tempNum int
+            fmt.Scan(&tempNum)
+            totalCandies += tempNum
+        }
+        
+        result := fmt.Sprintf("Case #%d: %d", i+1, totalCandies%m)
+        fmt.Println(result)
+        
+    }
+    
+}
+
