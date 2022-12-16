@@ -12,3 +12,6 @@ contains results and cheat sheet for the google quick start exam
   int a=Character.getNumericValue(c);  
 ```
 
+## Subsequence definition: 
+A subsequence is a sequence that is derived from another sequence by deleting some of its element while keeping their order
+==> Two-pointer approach to have the minimum time/space complexity 
