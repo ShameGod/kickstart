@@ -26,3 +26,5 @@ In this exercise the logical solution was easy and had a time/space complexity o
 ```
 result, err :=strconv.Atoi(string(char))
 ```
+## To get the number of digits in a number :
+the number off digits of a number N is ⌈log10(N+1)⌉
