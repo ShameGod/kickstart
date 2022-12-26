@@ -2,6 +2,12 @@
 contains results and cheat sheet for the google quick start exam 
 
 ## Greedy method 
+A method used in optimisation problems. When we need to find the maximum result or the minimum result.
+Here are the strategies to solve optimization problems: 
+* Greedy method: sort the possibilites accoreing to characteristics and take the best one. 
+* Dynamic Programming 
+* Branch and Bound 
+
 
 
 ## Subsequence definition: 
